@@ -1,0 +1,13 @@
+fastapi                    # FastAPI framework for building APIs
+uvicorn                  # ASGI server for running the FastAPI app
+pydantic                  # Data validation and settings management
+sqlalchemy                # ORM for database models and interactions
+databases[postgresql]     # Async database support, use PostgreSQL for production
+psycopg2-binary            # PostgreSQL database adapter for SQLAlchemy
+passlib[bcrypt]           # Password hashing with bcrypt
+python-jose          # JWT handling for authentication
+alembic           # Database migrations
+python-dotenv             # For managing environment variables from .env files
+docker                  #  Docker support for running the application in containers
+pytest                   # Unit testing framework
+pytest-asyncio           # Async support for pytest
