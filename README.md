@@ -2,7 +2,6 @@
 alembic revision --autogenerate -m "Initial migration"
 alembic upgrade head -->
 
-
 Personal Financial Management API
 This project is a personal financial management backend built with Python's FastAPI. It allows users to track daily spending, manage future spending plans, and view monthly reports of their finances.
 
@@ -79,4 +78,3 @@ This project is licensed under the MIT License.
 
 Author: Boe Kaung Kyaw
 Contact: boekaungkyaw@gmail.com
-
